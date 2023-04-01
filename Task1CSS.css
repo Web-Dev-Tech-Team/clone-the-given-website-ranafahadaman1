@@ -1,0 +1,136 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+.main-navbar{
+    text-align:center ;
+    margin-top: -45px;
+}
+.main-navbar > li> a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 60px;
+    font-family: sans-serif;
+    color:rgb(23, 173, 233);
+    font-size: large;
+}
+
+.main-navbar > li{
+    display: inline;
+}
+li >a >img{
+    height: 10%;
+    width:10%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=1060&t=st=1680371999~exp=1680372599~hmac=4a8b7f479485335796ac669d446e798637b86b19d271d00ff49a82bf5a08f156);
+    background-attachment:fixed;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.mail-call-div >a>img:nth-child(1){
+    width:2%;
+    display: block;
+    margin-top:5%;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.mail-call-div >a> img:nth-child(2){
+    width: 2%;
+    display: block;
+    margin-left: 47.5px;
+}
+
+footer{
+    height: 20%;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+  padding: 2rem 2rem;
+  background-color: rgb(224, 224, 224);
+  vertical-align: middle;
+  text-align: center;
+}
+
+footer> div{
+    display: inline-block;
+    padding: 1rem 1rem;
+    padding-top: 0px;
+}
+footer>div>p{
+    font-family: sans-serif;
+font-size: large;
+font-weight: 700;
+}
+
+.mail-call-div{
+    margin-top: 100px;
+    width: 25%;
+    display: inline;
+    height: 100%;
+    vertical-align: middle;
+    border-style: none solid none none;
+}
+form{
+    vertical-align: middle;
+}
+
+.form-div{
+    text-align: center;
+    width: 75%;
+    margin-top: -125px;
+    vertical-align: middle;
+}
+.form-div>form>button{
+    font-family: sans-serif;
+    margin-top: 25px;
+    padding:3px 10px 3px 10px;
+}
+
+input{
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    outline:none;
+    color: black;
+    margin:10px;
+    border-style: none none solid none;
+}
+
+textarea{
+    text-decoration: none;
+    border: none;
+    display:block;
+    background-color: transparent;
+    outline:none;
+    color: black;
+    resize: none;
+    border-style: none solid solid solid;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+
+footer>div>div>ul>li>img{
+    width:2%;
+    height: 2%;
+}
+footer>div>div>ul>li{
+    display: inline;
+    padding: 5px;
+}
+.footer-logos{
+margin-top: 10px;
+margin:12.5px 0 0px 0px;
+}
